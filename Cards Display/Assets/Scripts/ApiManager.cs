@@ -17,7 +17,8 @@ public class ApiManager : MonoBehaviour
 
     [SerializeField] private TMP_InputField field;
     [SerializeField] private TMP_Text errorMessage, userName;
-    private string api = "https://rickandmortyapi.com/api/character/", server = "https://my-json-server.typicode.com/panchuel/Entrega1-Distribuidos/users/";
+    private string api = "https://rickandmortyapi.com/api/character/";
+    private string server = "https://my-json-server.typicode.com/The-AshLord/Rick_and_Morty_Cards/users/";
     private int index = 0;
     private string id;
 
